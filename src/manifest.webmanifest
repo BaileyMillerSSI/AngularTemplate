@@ -1,6 +1,6 @@
 {
-  "name": "webapp",
-  "short_name": "webapp",
+  "name": "<appName>",
+  "short_name": "<appName>",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

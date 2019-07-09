@@ -58,7 +58,7 @@
         *ngIf="!(drawer.opened)">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>{{updateService.GetAppName()}}</span>
+      <span routerLink="/" class="can-click" tabindex="-1">{{updateService.GetAppName()}} <span *ngIf="updateService.isOffline()">- Offline</span></span>
     </mat-toolbar>
     <!-- Add Content Here -->
     <ng-content></ng-content>

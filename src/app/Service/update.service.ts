@@ -48,6 +48,11 @@ export class UpdateService {
     }
   }
 
+  public isOffline()
+  {
+    return navigator.onLine === false;
+  }
+
   public GetAppVersion()
   {
     return version;
