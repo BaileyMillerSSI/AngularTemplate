@@ -19,4 +19,11 @@ export class NavBarComponent {
 
   constructor(private breakpointObserver: BreakpointObserver, public themeService: ThemeService, public updateService: UpdateService) {}
 
+
+
+  openSettings()
+  {
+    console.log(`Current App Version: ${this.updateService.GetAppVersion()}`);
+  }
+
 }
