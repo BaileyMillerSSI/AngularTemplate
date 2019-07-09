@@ -9,5 +9,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   flex-direction: column !important;
 }
 
+.can-click
+{
+    cursor: pointer;
+}
 
 @import './app/theme.style.scss'
