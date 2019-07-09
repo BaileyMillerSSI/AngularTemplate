@@ -1,6 +1,22 @@
-# Webapp
-
+# Angular Template App
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
+
+## Customization and Features
+
+# Names
+The application automatically pulls data from the package.json file to display in the UI. Specifically the `name, longName, version` are special values that will be read into the applicaiton.
+
+# Themes
+This application uses the Angular Material Mixins to customize the colors of the application. These are located under the `theme.styles.scss` file and are easy to customize for light and dark mode users.
+
+# Progressive Web App
+The application is setup to funciton as a PWA using `@angular/pwa` package and a slightly customized `update.service.ts` file to help with some functions. An install button event is captured and displayed as a button on the side menu during the initial startup. As well a check for updates button is available that can trigger a manual check. The `update.service.ts` file handles displaying toast notification if an update is availabe.
+
+# State Management
+This application starts with a simple [https://github.com/datorama/akita] data store that will cache the theme color.
+
+# Organization
+This application will be a great starting point for Angular developers that are looking to keep their directories clean. Everything has a place and a shared module to handle UI and outside module imports. When generating new UI components use this schematic: `ng g component <Name> --module Shared` don't forget to export the new declarations as well. 
 
 ## Development server
 
