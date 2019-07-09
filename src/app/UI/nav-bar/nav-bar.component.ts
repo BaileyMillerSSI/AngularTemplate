@@ -3,6 +3,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ThemeService } from 'src/app/Service/theme.service';
+import { UpdateService } from 'src/app/Service/update.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -16,6 +17,6 @@ export class NavBarComponent {
       map(result => result.matches)
     );
 
-  constructor(private breakpointObserver: BreakpointObserver, public themeService: ThemeService) {}
+  constructor(private breakpointObserver: BreakpointObserver, public themeService: ThemeService, public updateService: UpdateService) {}
 
 }

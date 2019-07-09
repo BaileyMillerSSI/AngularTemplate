@@ -25,7 +25,7 @@
           {{themeService.isLightMode() ? 'Light' : 'Dark'}} Mode</mat-slide-toggle>
       </mat-toolbar-row>
 
-      <!-- <mat-toolbar-row *ngIf="updateService.ServiceWorkerAvailable()" >
+      <mat-toolbar-row *ngIf="updateService.ServiceWorkerAvailable()" >
         <button mat-menu-item (click)="updateService.doUpdateCheck()">
           <mat-icon>cached</mat-icon>
           <span>Check for Updates</span></button>
@@ -34,9 +34,9 @@
       <mat-toolbar-row *ngIf="updateService.CanInstallPWA()">
         <button mat-menu-item (click)="updateService.InstallPWA()">
           <mat-icon>cloud_download</mat-icon>
-          <span>Install {{GetAppName()}}</span>
+          <span>Install {{updateService.GetAppName()}}</span>
         </button>
-      </mat-toolbar-row> -->
+      </mat-toolbar-row>
 
       <mat-toolbar-row>
         <button mat-menu-item (click)="LogVersion()" [disabled]="false">
@@ -58,7 +58,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>webapp</span>
+      <span>{{updateService.GetAppName()}}</span>
     </mat-toolbar>
     <!-- Add Content Here -->
     <ng-content></ng-content>
