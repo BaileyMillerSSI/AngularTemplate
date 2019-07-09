@@ -1,22 +1,22 @@
 {
   "configVersion": 1,
-  "timestamp": 1562710723193,
-  "index": "'https://baileymillerssi.github.io/AngularTemplate/'/index.html",
+  "timestamp": 1562710988076,
+  "index": "https://baileymillerssi.github.io/AngularTemplate/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "'https://baileymillerssi.github.io/AngularTemplate/'/favicon.ico",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/index.html",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/main-es2015.6593b078f5d5c8ee14d9.js",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/main-es5.79a131bcf4558879b652.js",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/polyfills-es2015.6ea0b72173d453e298a9.js",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/polyfills-es5.2219c87348e60efc0076.js",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/runtime-es2015.703a23e48ad83c851e49.js",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/runtime-es5.465c2333d355155ec5f3.js",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/styles.d5c5ea97d90c727055e1.css"
+        "https://baileymillerssi.github.io/AngularTemplate/favicon.ico",
+        "https://baileymillerssi.github.io/AngularTemplate/index.html",
+        "https://baileymillerssi.github.io/AngularTemplate/main-es2015.649f1e5ccf7ba3b1668c.js",
+        "https://baileymillerssi.github.io/AngularTemplate/main-es5.3509320b92d5a3cd1a52.js",
+        "https://baileymillerssi.github.io/AngularTemplate/polyfills-es2015.6ea0b72173d453e298a9.js",
+        "https://baileymillerssi.github.io/AngularTemplate/polyfills-es5.2219c87348e60efc0076.js",
+        "https://baileymillerssi.github.io/AngularTemplate/runtime-es2015.703a23e48ad83c851e49.js",
+        "https://baileymillerssi.github.io/AngularTemplate/runtime-es5.465c2333d355155ec5f3.js",
+        "https://baileymillerssi.github.io/AngularTemplate/styles.d5c5ea97d90c727055e1.css"
       ],
       "patterns": []
     },
@@ -25,37 +25,37 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-128x128.png",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-144x144.png",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-152x152.png",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-192x192.png",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-384x384.png",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-512x512.png",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-72x72.png",
-        "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-96x96.png"
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-128x128.png",
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-144x144.png",
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-152x152.png",
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-192x192.png",
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-384x384.png",
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-512x512.png",
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-72x72.png",
+        "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/index.html": "413e010e7e4c2c082d01ca367183ec9d013249c0",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/main-es2015.6593b078f5d5c8ee14d9.js": "33eba7a1a01b5ad54791343c0b34bdc0cb86ee42",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/main-es5.79a131bcf4558879b652.js": "ad9d8cd23d14b441e3f00f68295da01738ed2627",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/polyfills-es2015.6ea0b72173d453e298a9.js": "fa3294dc18f74d99ffb7812c33dbbdb3daf098ca",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/polyfills-es5.2219c87348e60efc0076.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "'https://baileymillerssi.github.io/AngularTemplate/'/styles.d5c5ea97d90c727055e1.css": "b41c2fd9bd185875f2f8368a6c0fc40c7dffa444"
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://baileymillerssi.github.io/AngularTemplate/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://baileymillerssi.github.io/AngularTemplate/index.html": "2c80c71da95835bd23770f7804fb3eede9c019c2",
+    "https://baileymillerssi.github.io/AngularTemplate/main-es2015.649f1e5ccf7ba3b1668c.js": "33eba7a1a01b5ad54791343c0b34bdc0cb86ee42",
+    "https://baileymillerssi.github.io/AngularTemplate/main-es5.3509320b92d5a3cd1a52.js": "ad9d8cd23d14b441e3f00f68295da01738ed2627",
+    "https://baileymillerssi.github.io/AngularTemplate/polyfills-es2015.6ea0b72173d453e298a9.js": "fa3294dc18f74d99ffb7812c33dbbdb3daf098ca",
+    "https://baileymillerssi.github.io/AngularTemplate/polyfills-es5.2219c87348e60efc0076.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
+    "https://baileymillerssi.github.io/AngularTemplate/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://baileymillerssi.github.io/AngularTemplate/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://baileymillerssi.github.io/AngularTemplate/styles.d5c5ea97d90c727055e1.css": "b41c2fd9bd185875f2f8368a6c0fc40c7dffa444"
   },
   "navigationUrls": [
     {
