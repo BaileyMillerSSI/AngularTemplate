@@ -15,6 +15,9 @@ The application is setup to funciton as a PWA using `@angular/pwa` package and a
 ### State Management
 This application starts with a simple [https://github.com/datorama/akita] data store that will cache the theme color.
 
+### Starting Components
+This is meant to be a template that has a strong foundation for new application development. With that in mind I didn't see the need to include all of my custom components. For now the application comes with a simple floating button located in the bottom right of the screen.
+
 ### Organization
 This application will be a great starting point for Angular developers that are looking to keep their directories clean. Everything has a place and a shared module to handle UI and outside module imports. When generating new UI components use this schematic: `ng g component <Name> --module Shared` don't forget to export the new declarations as well. 
 
