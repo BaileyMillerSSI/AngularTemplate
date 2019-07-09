@@ -2,3 +2,12 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-drawer-inner-container
+{
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+
+@import './app/theme.style.scss'

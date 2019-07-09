@@ -1,5 +1,10 @@
 {
   "name": "webapp",
+  "author": {
+    "email": "<Insert Support Email>",
+    "name": "<Insert Name>"
+  },
+  "longName": "<Insert Web App Name>",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
