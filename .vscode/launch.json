@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "name": "Launch Angular",
+            "type": "edge",
+            "version": "dev",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:4200",
+            "url": "http://localhost:4200/",
             "webRoot": "${workspaceFolder}"
         }
     ]
