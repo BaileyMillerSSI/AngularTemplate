@@ -1,39 +1,31 @@
 import { Injectable } from '@angular/core';
-import { ThemeStore } from '../State/theme/theme.store';
-import { ThemeState } from '../State/theme/theme.model';
-import { ThemeQuery } from '../State/theme/theme.query';
 import { Observable } from 'rxjs';
+import { ThemeStore } from "../State/theme.store";
+import { ThemeQuery } from "../State/theme.query";
 
-@Injectable({ providedIn: 'root' })
+@Injectable({
+  providedIn: 'root',
+})
 export class ThemeService {
+  constructor(private themeStore: ThemeStore, private themeQuery: ThemeQuery) {}
 
-  constructor(private themeStore: ThemeStore,
-              private themeQuery: ThemeQuery) {
-
-  }
-
-  public setMode(mode: boolean): void
-  {
+  public setMode(mode: boolean): void {
     this.themeStore.update({
-      isLightMode: mode
+      isLightMode: mode,
     });
 
     this.themeStore.setHasCache(true);
   }
 
-  public resetMode(): void
-  {
+  public resetMode(): void {
     this.themeStore.reset();
   }
 
-  public isLightMode(): boolean{
+  public isLightMode(): boolean {
     return this.themeQuery.getMode() === true;
   }
 
-  public $isLightMode(): Observable<boolean>
-  {
+  public $isLightMode(): Observable<boolean> {
     return this.themeQuery.$getMode();
   }
-
-
 }

@@ -1,6 +1,6 @@
 import { Injectable, ApplicationRef } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { first } from 'rxjs/operators';
 import { interval, concat } from 'rxjs';
 import { environment } from 'src/environments/environment';

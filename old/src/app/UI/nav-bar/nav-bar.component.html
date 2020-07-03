@@ -1,0 +1,71 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    
+    <mat-toolbar class="right-display">
+      <button mat-icon-button (click)="drawer.close()">
+        <mat-icon aria-label="Exit Side Nav button">close</mat-icon>
+      </button>
+    </mat-toolbar>
+
+    <mat-toolbar>Menu</mat-toolbar>
+
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+    </mat-nav-list>
+
+    <mat-divider class="sidenav-bottom"></mat-divider>
+    <mat-toolbar>
+      <mat-toolbar-row>
+        <mat-slide-toggle class="p1-left" [checked]="!(themeService.$isLightMode() | async)" (change)="themeService.setMode(!$event.checked)">
+          {{themeService.isLightMode() ? 'Light' : 'Dark'}} Mode</mat-slide-toggle>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row *ngIf="updateService.ServiceWorkerAvailable()" >
+        <button mat-menu-item (click)="updateService.doUpdateCheck()">
+          <mat-icon>cached</mat-icon>
+          <span>Check for Updates</span></button>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row *ngIf="updateService.CanInstallPWA()">
+        <button mat-menu-item (click)="updateService.InstallPWA()">
+          <mat-icon>cloud_download</mat-icon>
+          <span>Install {{updateService.GetAppName()}}</span>
+        </button>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row>
+        <button mat-menu-item (click)="openSettings()" [disabled]="false">
+          <mat-icon>settings</mat-icon>
+          <span>Settings</span>
+        </button>
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="!(drawer.opened)">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span routerLink="/" class="can-click" tabindex="-1">{{updateService.GetAppName()}} <span *ngIf="updateService.isOffline()">- Offline</span></span>
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!--Allows the buttons to work correctly on the side nav-->
+<mat-menu>
+
+</mat-menu>

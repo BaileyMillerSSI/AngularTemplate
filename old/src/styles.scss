@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-drawer-inner-container
+{
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.can-click
+{
+    cursor: pointer;
+}
+
+@import './app/theme.style.scss'

@@ -8,7 +8,7 @@ import { UpdateService } from 'src/app/Service/update.service';
 @Component({
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
-  styleUrls: ['./nav-bar.component.scss']
+  styleUrls: ['./nav-bar.component.less']
 })
 export class NavBarComponent {
 
