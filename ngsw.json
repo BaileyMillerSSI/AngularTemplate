@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1593800513515,
+  "timestamp": 1593801019205,
   "index": "https://baileymillerssi.github.io/AngularTemplate/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://baileymillerssi.github.io/AngularTemplate/favicon.ico",
         "https://baileymillerssi.github.io/AngularTemplate/index.html",
-        "https://baileymillerssi.github.io/AngularTemplate/main.a57afc3cfda7b24702e7.js",
+        "https://baileymillerssi.github.io/AngularTemplate/main.0af01ed126b68ced3ae9.js",
         "https://baileymillerssi.github.io/AngularTemplate/manifest.webmanifest",
         "https://baileymillerssi.github.io/AngularTemplate/polyfills.654b0ce57de84441bf1a.js",
         "https://baileymillerssi.github.io/AngularTemplate/runtime.c51bd5b1c616d9ffddc1.js",
@@ -52,9 +52,9 @@
     "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://baileymillerssi.github.io/AngularTemplate/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://baileymillerssi.github.io/AngularTemplate/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://baileymillerssi.github.io/AngularTemplate/index.html": "498544acab922fb8e864076a0060e2dfb73dbd3d",
-    "https://baileymillerssi.github.io/AngularTemplate/main.a57afc3cfda7b24702e7.js": "f8ce51ae2073b8e65713d47b208c74ad05d3b421",
-    "https://baileymillerssi.github.io/AngularTemplate/manifest.webmanifest": "e0c9d6355a4f030dcae8065e15aecd4d4d451ac4",
+    "https://baileymillerssi.github.io/AngularTemplate/index.html": "37aebed1a12bd9bd74220afbb9a6d914e3dd8133",
+    "https://baileymillerssi.github.io/AngularTemplate/main.0af01ed126b68ced3ae9.js": "f8ce51ae2073b8e65713d47b208c74ad05d3b421",
+    "https://baileymillerssi.github.io/AngularTemplate/manifest.webmanifest": "d0344cab37a4fb3886fceed6f9e3215f099c0162",
     "https://baileymillerssi.github.io/AngularTemplate/polyfills.654b0ce57de84441bf1a.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "https://baileymillerssi.github.io/AngularTemplate/runtime.c51bd5b1c616d9ffddc1.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://baileymillerssi.github.io/AngularTemplate/styles.dfd473772a30a8efebd9.css": "19a26da309d6bd1951df469a7ca93bdbedcf486b"
